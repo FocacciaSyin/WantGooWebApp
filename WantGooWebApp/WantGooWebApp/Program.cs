@@ -1,3 +1,4 @@
+using Microsoft.FluentUI.AspNetCore.Components;
 using WantGooWebApp.Client.Pages;
 using WantGooWebApp.Components;
 
@@ -7,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services.AddFluentUIComponents();
 
 var app = builder.Build();
 
