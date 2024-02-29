@@ -1,2 +1,2 @@
 # WantGooWebApp
-使用dotnet8 Blazor Template 重新建立這個專案
+使用 dotnet8 Blazor + Aspire + FluentUI design 開發重新建立這個專案

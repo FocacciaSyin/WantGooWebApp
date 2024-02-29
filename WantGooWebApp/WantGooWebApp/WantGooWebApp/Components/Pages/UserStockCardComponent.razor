@@ -1,0 +1,63 @@
+﻿@attribute [StreamRendering]
+
+<FluentStack>
+    <FluentCard Width="180px" Height="320px">
+        <FluentStack Orientation="Orientation.Vertical">
+            <FluentStack HorizontalAlignment="HorizontalAlignment.End">
+                <FluentSwitch AriaLabel="No label"></FluentSwitch>
+            </FluentStack>
+            <FluentStack>
+                <FluentLabel Style="font-size: large;font-weight: bold">聯上發</FluentLabel>
+                <FluentSpacer/>
+                <FluentLabel Style="font-size: large;font-weight: bold">2537</FluentLabel>
+            </FluentStack>
+            <FluentStack>
+                <FluentLabel Style="font-size: large">10.15</FluentLabel>
+                <FluentSpacer/>
+                <FluentLabel Style="font-size: large">0.1(1%)</FluentLabel>
+            </FluentStack>
+
+            <FluentDivider></FluentDivider>
+
+            <FluentStack>
+                <FluentLabel Style="font-size: large">$40,488</FluentLabel>
+            </FluentStack>
+            <FluentStack HorizontalAlignment="HorizontalAlignment.End">
+                <FluentLabel Style="font-size: large">$1,208(3.10%)</FluentLabel>
+            </FluentStack>
+            <FluentStack Style="height: 7px">
+                <FluentLabel >9.82</FluentLabel>
+                <FluentSpacer/>
+                <FluentLabel >8.82</FluentLabel>
+            </FluentStack>
+            <FluentStack Style="height: 10px">
+                <FluentLabel >2024/01/07</FluentLabel>
+                <FluentSpacer/>
+                <FluentLabel >4000</FluentLabel>
+            </FluentStack>
+
+            <FluentDivider></FluentDivider>
+
+            <FluentStack Style="height: 10px">
+                <FluentLabel Style="font-size: small">EMA:20</FluentLabel>
+                <FluentSpacer/>
+                <FluentLabel Style="font-size: small">EMA:50</FluentLabel>
+            </FluentStack>
+            <FluentStack>
+                <FluentLabel Style="font-size: small">9.48</FluentLabel>
+                <FluentSpacer/>
+                <FluentLabel Style="font-size: small">9.90</FluentLabel>
+            </FluentStack>
+            <FluentStack Style="height: 0"
+                         HorizontalAlignment="HorizontalAlignment.Center">
+                <FluentIcon Value="@(new Icons.Regular.Size20.Settings())"/>
+                <FluentSpacer Width="35"/>
+                <FluentIcon Value="@(new Icons.Regular.Size20.Delete())"/>
+            </FluentStack>
+        </FluentStack>
+    </FluentCard>
+</FluentStack>
+
+@code {
+
+}

@@ -1,0 +1,14 @@
+﻿@page "/"
+@attribute [StreamRendering]
+
+<PageTitle>個股現況</PageTitle>
+
+<FluentStack VerticalAlignment="VerticalAlignment.Center" Style="padding:10px 0">
+    <FluentTextField></FluentTextField>
+    <FluentIcon Value="@(new Icons.Regular.Size20.Search())" />
+</FluentStack>
+<UserStockCardComponent></UserStockCardComponent>
+
+@code {
+
+}
